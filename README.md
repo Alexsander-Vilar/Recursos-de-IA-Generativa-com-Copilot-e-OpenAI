@@ -4,23 +4,15 @@ Antes de poder utilizar modelos Azure OpenAI, deve fornecer um recurso Azure Ope
 
 1. Entre no [portal do Azure](https://portal.azure.com/) .
 
-2. Crie um recurso 
-
-   Azure OpenAI
-
-    com as seguintes configurações:
+2. Crie um recurso Azure OpenAI com as seguintes configurações:
 
    - **Assinatura** : *uma assinatura do Azure que foi aprovada para acesso ao serviço Azure OpenAI.*
 
    - **Grupo de recursos** : *escolha um grupo de recursos existente ou crie um novo com um nome de sua preferência.*
 
-   - Região
+   - Região: 
 
-      : 
-
-     Faça uma escolha **aleatória** de qualquer uma das seguintes regiões
-
-      *
+      Faça uma escolha **aleatória** de qualquer uma das seguintes regiões *
 
      - Leste da Austrália
      - Leste do Canadá
@@ -32,13 +24,13 @@ Antes de poder utilizar modelos Azure OpenAI, deve fornecer um recurso Azure Ope
      - Suécia Central
      - Suíça Norte
      - Sul do Reino Unido
-
+     
    - **Nome** : *Um nome exclusivo de sua escolha*
-
+   
    - **Nível de preços** : Padrão S0
-
+   
    > \* Os recursos do Azure OpenAI são limitados por cotas regionais. As regiões listadas incluem cotas padrão para os tipos de modelo usados neste exercício. A escolha aleatória de uma região reduz o risco de uma única região atingir o limite de cota em cenários em que você compartilha uma assinatura com outros usuários. Caso um limite de cota seja atingido posteriormente no exercício, existe a possibilidade de você precisar criar outro recurso em uma região diferente.
-
+   
 3. Aguarde a conclusão da implantação. Em seguida, acesse o recurso Azure OpenAI implantado no portal do Azure.
 
 ## Implantar um modelo
@@ -127,20 +119,16 @@ Antes de poder utilizar modelos Azure OpenAI, deve fornecer um recurso Azure Ope
 
 1. Entre no [portal do Azure](https://portal.azure.com/) .
 
-2. Crie um recurso 
-
-   Azure OpenAI
-
-    com as seguintes configurações:
+2. Crie um recurso Azure OpenAI com as seguintes configurações:
 
    - **Assinatura** : *uma assinatura do Azure que foi aprovada para acesso ao serviço Azure OpenAI.*
    - **Grupo de recursos** : *escolha um grupo de recursos existente ou crie um novo com um nome de sua preferência.*
    - **Região** : Leste dos EUA*
    - **Nome** : *Um nome exclusivo de sua escolha*
    - **Nível de preços** : Padrão S0
-
+   
    > \* Diferentes regiões têm diferentes disponibilidades e cotas para modelos. Neste exercício, você usará um modelo GPT-35-Turbo para geração de texto e um modelo DALL-E para geração de imagens, ambos suportados no Leste dos EUA.
-
+   
 3. Aguarde a conclusão da implantação. Em seguida, acesse o recurso Azure OpenAI implantado no portal do Azure.
 
 ## Explore o Azure OpenAI Studio
